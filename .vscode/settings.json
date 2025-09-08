@@ -3,47 +3,4 @@
   "git.autofetch": true,
   "diffEditor.ignroeTrimWhitespace": false,
   "terminal.integrated.defaultProfile.osx": "bash"
-
-    // ===== BASIC SETTINGS =====
-    "files.encoding": "utf8",
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1000,
-    
-    // ===== EDITOR ESSENTIALS =====
-    "editor.fontSize": 16,
-    "editor.minimap.enabled": false,
-    "editor.suggestSelection": "first",
-    
-    // ===== TERMINAL =====
-    "terminal.integrated.fontSize": 16,
-    "terminal.integrated.enableMultiLinePasteWarning": "never",
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
-    
-    // ===== CODE RUNNER - CLEAN OUTPUT =====
-    "code-runner.clearPreviousOutput": true,
-    "code-runner.showExecutionMessage": false,
-    "code-runner.executorMap": {
-        "python": "python -u",
-        "javascript": "node",
-        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
-        "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $fileNameWithoutExt",
-        "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $fileNameWithoutExt"
-    },
-    
-    // ===== PYTHON EXTENSION + BLACK FORMATTER =====
-    "[python]": {
-        "editor.formatOnType": true,
-        "editor.defaultFormatter": "ms-python.black-formatter"
-    },
-    "python.formatting.provider": "none",
-    
-    // ===== GITLENS =====
-    "git.autofetch": true,
-    "git.enableSmartCommit": true,
-    "git.confirmSync": false,
-    
-    // ===== EXPLORER =====
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "explorer.confirmPasteNative": false
 }
