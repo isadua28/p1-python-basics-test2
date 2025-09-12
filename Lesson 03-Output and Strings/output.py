@@ -5,10 +5,12 @@
 # PART 1: JS vs Python Output Practice
 # ========================================
 
+print("Hello, World!")
+
 # TODO: Convert these JavaScript console.log statements to Python print statements
 # JavaScript: console.log("Hello, World!");
 # Python: 
-
+print("Name:", 'Alex', "Age", 16)
 
 # JavaScript: console.log("Welcome to programming!");
 # Python: 
@@ -29,11 +31,17 @@ your_name = "Your Name Here"  # TODO: Change this to your actual name
 
 # JavaScript: console.log("Hello" + name);
 # Python: 
-
+name = "Isabella"
+print("Hello " + name)
+grade = 10
+# print("I am in grade " + grade) can't concat str + int
+print("I am in grade ", grade)
 
 # JavaScript: console.log("Hello" + " " + name);
 # Python: 
-
+print('"She said "Good Morning!"')
+print(f"Hello, my name is {name}")
+print(f"{name} will be in grade {grade + 1} next year")
 
 # TODO: Convert this JavaScript template literal to Python f-string
 # JavaScript: console.log(`Hello ${name}!`);
